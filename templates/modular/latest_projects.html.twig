@@ -49,7 +49,7 @@
           <div>{{ item.content }}</div>
 
           {% if item.header.link.url and item.header.link.title %}
-            <p><a class="more-link" href="{{ project.header.link.url }}"><i class="fa fa-external-link"></i> {{ item.header.link.title }}</a></p>
+            <p><a class="more-link" href="{{ item.header.link.url }}"><i class="fa fa-external-link"></i> {{ item.header.link.title }}</a></p>
           {% endif %}
         </div>
       </div>
